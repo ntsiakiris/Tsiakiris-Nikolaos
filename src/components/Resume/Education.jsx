@@ -23,8 +23,8 @@ export default function Education ()  {
           />
           <ResumeCard
             title="Secondary School Education"
-            subTitle="Secondary School (2013 - 2016)"
-            des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
+            subTitle="Secondary School (2010 - 2016)"
+            des="Secondary school education, for ages 12 to 18, includes lower secondary (middle school) and upper secondary (high school). Students study a broad range of subjects initially, then specialize in upper secondary, preparing for higher education or careers. It often ends with key exams. "
           />
         </div>
       </div>
