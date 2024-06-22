@@ -2,16 +2,11 @@ import { useTypewriter } from "react-simple-typewriter";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import ProfileImage from "../image/portfolio-black-removebg-preview.png";
-import { useState, useEffect } from "react";
 
 
 
 export default function About() {
-  const [animation, setAnimation] = useState(false);
-
-  useEffect(() => {
-    setAnimation(true);
-  }, []);
+  
 
     const [text] = useTypewriter({
       words: ["Welcome", "Hola", "Bonjour","Willkommen"],
@@ -25,7 +20,7 @@ export default function About() {
     return (
     <section id="about">
       <h2>About Me</h2>
-      <div className={`about-content ${animation ? 'slide-in-left-animation' : ''}`}>
+      <div className="about-content" >
         <div> 
         <img src={ProfileImage}alt="Profile" /> 
         </div>

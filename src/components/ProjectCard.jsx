@@ -23,15 +23,15 @@ export default function ProjectCard({ title, description, githubLink, img, onSel
           <div className="description">
           <p>{description}</p>
           {showButton && ( 
-            <div className="git-button">
-            <a href={githubLink}>
-            <FontAwesomeIcon icon={faGithub} size="2x" />
-            </a>
-            { <button className="project-btn" /*onClick={() => window.location.href = onSelect}*/> Learn More  </button> }
-            </div>
+            <button className="project-btn">
+            <span className="btn-content">
+              Learn More <FontAwesomeIcon icon={faGithub} size="2x" />
+            </span>
+          </button>
           )}
          </div>
       </div>
     </div>
   );
 }
+            

@@ -326,18 +326,6 @@ section h2 {
 }
 
 
-@keyframes slideInLeft {
-  from {
-    transform: translateX(-300px);
-    opacity: 0;
-  }
-
-  to{
-    transform: translateX(0px);
-    opacity: 1;
-  }
-}
-
 @media screen and (max-width: 1020px) {
   .about-content {
     flex-direction: column; 
@@ -465,14 +453,14 @@ box-shadow: 0px 0px 20px 5px rgba(66,66,66,1);
   text-align: center;
 }
 
-.project-card .git-button {
+/* .project-card .git-button {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  gap: 20px;
-  margin-top: 10px;
-}
+   gap: 20px; 
+  margin-top: 30px; 
+} */
 
 
 .project-card a { 
@@ -518,9 +506,14 @@ box-shadow: 0px 0px 20px 5px rgba(66,66,66,1);
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  margin-top: 30px;
 }
 
-
+.project-card .project-btn .btn-content {
+  display: flex; 
+  align-items: center; 
+  gap: 0.5rem; 
+}
 
 .project-card .project-btn:hover {
   box-shadow: rgba(2, 96, 133, 0.5) 0 1px 30px;
